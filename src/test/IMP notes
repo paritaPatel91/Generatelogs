@@ -1,0 +1,57 @@
+ 1) what is log?
+  ANS: capturing info/activities at the time of program execution.
+
+ 2) Types/label of logs?
+ ANS:
+ 1.info
+ 2.warn
+ 3.error
+ 4.fatal
+
+ 3)File name has to be log4j.properties or log4j.xml any of them both has diff configuration ,we can not change name at all .it has to be same like this.
+
+ 4)How to generate the logs?
+ ANS:use apache log4j API(log4j jar)
+
+ 5)where to create ?
+ ANS:create inside resources folder
+
+ 6)why log4j?
+ ANS: it is an open source
+ with log4j,it is possible to store the flow details of our selenium automation in a file, console or databse.
+ it can be used for large as well aw small projects.
+
+ 7)log4j components?
+ ANS:
+ 1.Loggers :It is responsible for logging information.
+ create the instance of logger class
+ 2.Log4j level : 5 kinds of levels
+ ALL:This level of logging will log everything (it turns all the logs on)
+ DEBUG:print the debugging information and is helpful in development stage
+ INFO: print infromation message that highlights the progress of the appilcation
+ ERROR:print error msg that might allow system to continue
+ FATAL: print system critical information which are causing the application to crash
+ OFF: No logging
+ 3.Appenders : It is used to deliver LogEvents to their destination
+ -->consoleAppender logs to standard output
+ -->File appender prints logs to some file
+ -->Rolling file appeder to a file with maximum size
+ 4)Layouts:It is responsible for formatting logging information in diff styles.
+
+ ** Go to this site for the example.
+ https://howtodoinjava.com/log4j/how-to-configure-log4j-using-xml-configuration/
+
+ ** use # to comment in file
+
+ ** here is Readpropertie class and config.properties file ara together to read the properties of file
+
+ ** and generate logs class and log4j.properties are together to generate the logs.log4j.
+ properties are no need to remember,
+ just copy paste it and check the result in the application.log fileand in the console also
+
+** Both files name has to be same all the time ,we can not change the name.
+
+** see N vidio for this with 45 min,one vidio does not work.
+
+**log4j has to created by right click on the project name and create resources directory and create file over there,
+same name has to be.
